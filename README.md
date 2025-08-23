@@ -84,6 +84,6 @@
 ---
 
 <p align="center">
-  <img src="https://github.com/aman123443/aman123443/blob/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
+  <img src="https://raw.githubusercontent.com/aman123443/aman123443/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
 
