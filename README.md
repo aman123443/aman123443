@@ -1,6 +1,9 @@
 <!-- Profile Banner -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Hi+there+👋;I'm+Aman+Shaikh;Java+%7C+Spring+Boot+%7C+Full+Stack+Developer;Open+Source+Contributor+🚀;Lifelong+Learner+💡" alt="Typing Animation" />
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2E97D8&center=true&vCenter=true&width=800&lines=I'm+Aman+Shaikh;Java+%7C+Spring+Boot+%7C+Full+Stack+Developer;Open+Source+Contributor+🚀;Lifelong+Learner+💡" alt="Typing Animation" />
+</p>
+
 </p>
 
 ---
@@ -22,7 +25,8 @@
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
   <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
+
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
   <img src="https://img.shields.io/badge/H2-000000?style=for-the-badge&logo=h2&logoColor=white"/>
 </p>
