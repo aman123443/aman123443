@@ -1,7 +1,11 @@
 <!-- Profile Banner -->
+# 👋 Hi, I'm Aman  
+
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2E97D8&center=true&vCenter=true&width=800&lines=I'm+Aman+Shaikh;Java+%7C+Spring+Boot+%7C+Full+Stack+Developer;Open+Source+Contributor+🚀;Lifelong+Learner+💡" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?size=22&duration=3000&lines=Java+Developer;Open+Source+Contributor;Building+Cool+Projects" />
 </p>
+
+---
 
 
 ---
@@ -51,20 +55,18 @@
 
 ---
 
-## 🏆 Achievements & Badges  
+## 🏆 Achievements & Badges
 
 <p align="center">
-  <!-- GitHub Trophies -->
   <img src="https://github-profile-trophy.vercel.app/?username=aman123443&theme=tokyonight&no-frame=true&margin-w=5&row=1"/>
 </p>
 
-<!-- Custom Badges (styled like shields.io) -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Arctic%20Code%20Vault%20Contributor-316192?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pull%20Shark-00BFFF?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Quickdraw-FF69B4?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/YOLO-FFD700?style=for-the-badge&logo=github&logoColor=black" />
-</p>
+### 🎖️ GitHub Achievements
+- 🐙 **Arctic Code Vault Contributor**  
+- 🦈 **Pull Shark**  
+- ⚡ **Quickdraw**  
+- 🐵 **YOLO**  
+- 🧩 **Galaxy Brain**  
 
 
 ---
@@ -79,7 +81,9 @@
 </p>
 
 ---
+---
 
 <p align="center">
   <img src="https://github.com/aman123443/aman123443/blob/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
 </p>
+
