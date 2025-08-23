@@ -83,7 +83,4 @@
 ---
 ---
 
-<p align="center">
-  <img src="https://github.com/aman123443/aman123443/blob/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
-</p>
 
