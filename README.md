@@ -7,9 +7,6 @@
 
 ---
 
-
----
-
 ## 👨‍💻 About Me
 - 🔭 Currently working on **Spring Boot Projects**  
 - 🌱 Learning **Advanced Java & System Design**  
@@ -27,8 +24,7 @@
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
   <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
-
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
   <img src="https://img.shields.io/badge/H2-000000?style=for-the-badge&logo=h2&logoColor=white"/>
 </p>
@@ -45,12 +41,12 @@
 ## 📊 GitHub Stats & Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aman123443&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=aman123443&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true" alt="GitHub Stats" height="170"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=aman123443&theme=tokyonight" alt="GitHub Streak" height="170"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aman123443&layout=compact&theme=tokyonight" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aman123443&layout=compact&theme=tokyonight&langs_count=8" alt="Top Languages"/>
 </p>
 
 ---
@@ -68,6 +64,12 @@
 - 🐵 **YOLO**  
 - 🧩 **Galaxy Brain**  
 
+---
+
+## 🐍 Contribution Snake
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aman123443/aman123443/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
+</p>
 
 ---
 
@@ -81,8 +83,7 @@
 </p>
 
 ---
----
-![Snake animation](https://raw.githubusercontent.com/aman123443/aman123443/output/github-contribution-grid-snake.svg)
 
-
-
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=aman123443&label=Profile%20views&color=blue&style=flat" alt="Profile Views"/>
+</p>
