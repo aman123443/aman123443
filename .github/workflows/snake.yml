@@ -12,7 +12,7 @@ permissions:
   contents: write   # ✅ allow pushing to the repo
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -22,7 +22,7 @@ jobs:
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
-          github_user_name: aman123443   # 👈 your username
+          github_user_name: aman123443
           outputs: |
             dist/github-contribution-grid-snake.svg
 
@@ -34,8 +34,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # ⭐ Auto update README with stars / forks / contributions
-      - name: Update README Stats
-        uses: actions-js/profile-readme-stats@v1.3.0
+      # 📊 Update README with recent activity
+      - name: Update README with activity
+        uses: Readme-Workflows/recent-activity@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
