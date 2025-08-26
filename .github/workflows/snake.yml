@@ -36,6 +36,6 @@ jobs:
 
       # 📊 Update README with recent activity
       - name: Update README with activity
-        uses: Readme-Workflows/recent-activity@v2
+        uses: readme-activity-readme/recent-activity@v2
         with:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
