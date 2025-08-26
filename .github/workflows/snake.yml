@@ -2,32 +2,34 @@ name: Generate Snake Animation & Update README
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Runs every midnight
-  workflow_dispatch:      # Allow manual trigger
+    - cron: "0 */12 * * *" # Runs every 12 hours
+  workflow_dispatch:      # Allows manual triggering
   push:
     branches:
-      - main              # Change if your default branch is not 'main'
+      - main
 
 permissions:
-  contents: write   # ✅ allow pushing to the repo
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      # 🐍 Generate Snake
-      - name: Generate Snake
+      # 🐍 Generate Snake Animation
+      - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
-          github_user_name: aman123443
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Push snake animation to output branch
-        uses: crazy-max/ghaction-github-pages@v3
+      # 🚀 Push snake animation to the output branch
+      - name: Push snake animation
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
@@ -35,7 +37,20 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # 📊 Update README with recent activity
-      - name: Update README with activity
-        uses: readme-activity-readme/recent-activity@v2
-        with:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Update README with Recent Activity
+        uses: jamesgeorge007/github-activity-readme@v0.4.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 💾 Commit and Push README changes
+      - name: Commit and Push updated README
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff-index --quiet HEAD; then
+            echo "No changes to commit to README."
+          else
+            git commit -m "chore: update recent activity in README"
+            git push
+          fi
