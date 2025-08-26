@@ -1,24 +1,30 @@
-name: Generate Snake Animation & Update README
+# A robust workflow to generate a snake animation and update the README daily.
+
+name: Daily README Update
 
 on:
+  # This runs the job every day at midnight UTC.
   schedule:
-    - cron: "0 */12 * * *" # Runs every 12 hours
-  workflow_dispatch:      # Allows manual triggering
-  push:
-    branches:
-      - main
+    - cron: "0 0 * * *"
 
-permissions:
-  contents: write
+  # This allows you to run the workflow manually from the Actions tab.
+  workflow_dispatch:
 
 jobs:
-  build:
+  update_readme:
+    name: Update README and Snake Animation
     runs-on: ubuntu-latest
+    
+    # This permission is essential for the workflow to write to the repository.
+    permissions:
+      contents: write
+
     steps:
-      - name: Checkout repository
+      # Step 1: Check out the repository's code.
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # 🐍 Generate Snake Animation
+      # Step 2: Generate the snake animation files (light and dark mode).
       - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
@@ -26,9 +32,11 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 🚀 Push snake animation to the output branch
-      - name: Push snake animation
+      # Step 3: Push the generated snake files to the 'output' branch.
+      - name: Push Snake Animation to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
@@ -36,21 +44,18 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 📊 Update README with recent activity
+      # Step 4: Update the README.md with your recent GitHub activity.
       - name: Update README with Recent Activity
         uses: jamesgeorge007/github-activity-readme@v0.4.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 💾 Commit and Push README changes
-      - name: Commit and Push updated README
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          if git diff-index --quiet HEAD; then
-            echo "No changes to commit to README."
-          else
-            git commit -m "chore: update recent activity in README"
-            git push
-          fi
+      # Step 5: Commit the changes to README.md and push to the main branch.
+      # This uses a dedicated action for committing, which is more reliable.
+      - name: Commit and Push Updated README
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update snake animation and recent activity"
+          file_pattern: README.md
+          # Optional: Use if your default branch is not 'main'
+          # branch: main
