@@ -1,4 +1,3 @@
-<!-- Profile Banner -->
 # 👋 Hi, I'm Aman  
 
 <p align="center">
@@ -8,19 +7,13 @@
 ---
 
 ## 👨‍💻 About Me
-- 🔭 Currently working on **Spring Boot Projects**  
-- 🌱 Learning **Advanced Java & System Design**  
-- 👯 Looking to collaborate on **Open Source Projects**  
-- 💬 Ask me about **Java, Spring Boot, APIs, and Web Development**  
-- 📫 Reach me at: **[LinkedIn](https://www.linkedin.com/in/aman-shaikh-0ba36a244/)** | **[Twitter](https://x.com/AmanShaikh18260?t=zIeUEwXRtC4fxW5BL41UZw&s=08)**  
-- ⚡ Fun fact: *Code + Coffee = Perfect Day ☕💻*
+- 🔭 Currently working on **Spring Boot Projects** - 🌱 Learning **Advanced Java & System Design** - 👯 Looking to collaborate on **Open Source Projects** - 💬 Ask me about **Java, Spring Boot, APIs, and Web Development** - 📫 Reach me at: **[LinkedIn](https://www.linkedin.com/in/aman-shaikh-0ba36a244/)** | **[Twitter](https://x.com/AmanShaikh18260?t=zIeUEwXRtC4fxW5BL41UZw&s=08)** - ⚡ Fun fact: *Code + Coffee = Perfect Day ☕💻*
 
 ---
 
 ## 🚀 Tech Stack
 
 <p align="center">
-  <!-- Languages -->
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
   <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
@@ -30,7 +23,6 @@
 </p>
 
 <p align="center">
-  <!-- Tools -->
   <img src="https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
@@ -58,23 +50,18 @@
 </p>
 
 ### 🎖️ GitHub Achievements
-- 🐙 **Arctic Code Vault Contributor**  
-- 🦈 **Pull Shark**  
-- ⚡ **Quickdraw**  
-- 🐵 **YOLO**  
-- 🧩 **Galaxy Brain**  
-
----
+- 🐙 **Arctic Code Vault Contributor** - 🦈 **Pull Shark** - ⚡ **Quickdraw** - 🐵 **YOLO** - 🧩 **Galaxy Brain** ---
 
 ## 📢 Recent Activity
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-
 ---
 
 ## 🐍 Contribution Snake
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aman123443/aman123443/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aman123443/aman123443/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aman123443/aman123443/output/github-contribution-grid-snake.svg" />
+    <img alt="Snake animation" src="https://raw.githubusercontent.com/aman123443/aman123443/output/github-contribution-grid-snake.svg" />
+  </picture>
 </p>
 
 ---
